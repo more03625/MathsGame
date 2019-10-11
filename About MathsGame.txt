@@ -1,0 +1,3 @@
+Here we are building a MathsGame. 
+Instruction for creating a WebApp
+create a diff Folders for img,php,html file for github as well as for local machine
