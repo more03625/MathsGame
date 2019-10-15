@@ -17,17 +17,14 @@
      font-family: 'Baloo Bhai', cursive;
    }
    body{
-
-       background: linear-gradient(to left, #99ffcc -4%, #ffffff 99%);
-     
-
-     }
+     background: linear-gradient(to left, #99ffcc -4%, #ffffff 99%);
+   }
   </style>
 
 
   </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top mb-5">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top mb-2">
     <a class="navbar-brand" href="Homepage.php">
     <img src="images/pratham.png" style="width:250px"></img>
    </a>
@@ -36,10 +33,11 @@
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <a href="#"></a>
-      <h1 style="margin-left:25%; font-size:300%;"><span style="color:red;"></p></span>M</span><span style="color:blue;">A</span><span style="color:green;">T</span><span style="color:red;">H </span><span style="color:blue;">G</span><span style="color:red;">A</span><span style="color:pink;">M</span><span style="color:blue;">E</span></h1>
+      <h1 style="margin-left:25%; font-size:300%;"><span style="color:red;"></p></span>M</span><span style="color:blue;">A</span><span style="color:green;">T</span><span style="color:red;">H</span><span style="color:blue;">G</span><span style="color:red;">A</span><span style="color:pink;">M</span><span style="color:blue;">E</span></h1>
      <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link text-dark" style="font-size:20px;" href="Register.php"><i class="fa fa-sign-out"></i>Create New Account</a>
+        <a class="nav-link text-dark" style="font-size:20px;" href="Register.php"><i class="fa fa-sign-out"></i>
+Create New Account</a>
       </li>
     </ul>
   </div>
