@@ -18,27 +18,20 @@
     <title>Addtion Quiz</title>
 
     <style>
-
     body {
       /* background-image: linear-gradient(to right, rgb(94, 190, 191), rgb(155, 203, 204)); */
-
     }
-
-
     .d-inline.mx-auto.center {
       text-align:center!important;
       display:block!important;
       }
-
 #djbtn{
   font-size: 30px;
   width:12%;
-
 }
 #djbtn2{
   font-size: 15px;
   width:12%;
-
 }
 .btnoptions {
   width: 10%;
@@ -48,17 +41,17 @@
   </head>
   <body>
     <?php include("navone.php"); ?>
-    <div class="container-fluid">
+    <div class="container">
       <div class="col-lg-12">
 
       <div class="row">
         <div class="col-lg-10">
           <h3 class="mt-3 mb-4" style="font-family: 'Bitter', serif;"><b>Addtion</b></h3>
             <div class="container-fluid d-flex justify-content-center mb-5 mt-5">
-              <img class="img-fluid" style="width:20%;" src="images/birdall.png" alt="bird-Image">
-              <img class="img-fluid mt-3" style="width:9%; height:2%;" src="images/plusicon.png" alt="plusicon">
-              <img class="img-fluid" style="width:20%;" src="images/birdall.png" alt="bird-Image">
-              <img class="img-fluid" style="width:20%;" src="images/birdall.png" alt="bird-Image"><br>
+              <img class="img-fluid" style="width:25%;margin-top:80px" src="images/birdall.png" alt="bird-Image">
+              <img class="img-fluid" style="width:9%; height:2%;margin-top:105px" src="images/plusicon.png" alt="plusicon">
+              <img class="img-fluid" style="width:25%;margin-top:80px" src="images/birdall.png" alt="bird-Image">
+              <img class="img-fluid" style="width:25%;margin-top:80px" src="images/birdall.png" alt="bird-Image"><br>
             </div>
 
             <div class="btnoptions container-fluid d-inline mx-auto center mt-5" style="font">
@@ -69,26 +62,18 @@
             </div>
         </div>
 
-
-          <div class="col-lg-2 mt-5" style="margin-top: 105px;" >
+          <div class="col-lg-2" style="margin-top: 100px;" >
             <?php include("timer.php"); ?>
           </div>
-
-
-
       </div>
     </div>
     </div>
 
     <div class="container-fluid mt-5">
-      <button id="djbtn2" type="button" class="btn btn-info mb-5"><b>Prev</b></button>
+      <button id="djbtn2" type="button" style="margin-left:150px" class="btn btn-info mb-5"><b>Prev</b></button>
 
-      <a href="sec.php"><button id="djbtn2" type="button" class="btn btn-info float-right mb-5"><b>Next</b></button></a><br>
+      <a href="sec.php"><button id="djbtn2" type="button" style="margin-right:300px" class="btn btn-info float-right mb-5"><b>Next</b></button></a><br>
     </div>
-
-
-
 
   </body>
 </html>
-k
